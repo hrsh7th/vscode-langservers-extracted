@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+require(__dirname + '/../dist/html-language-server/node/htmlServerMain.js');
+

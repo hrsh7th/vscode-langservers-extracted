@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+require(__dirname + '/../dist/css-language-server/node/cssServerMain.js');
+
