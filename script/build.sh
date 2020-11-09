@@ -2,6 +2,10 @@
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
+# prepare
+mkdir -p $DIR/../tmp
+mkdir -p $DIR/../dist
+
 # clone
 cd $DIR/../tmp
 git clone --depth=1 git@github.com:Microsoft/vscode vscode
