@@ -21,10 +21,11 @@ You should install yarn for the building vscode.
 
 - `npm i -g yarn`
 
+
 # Build
 - yarn install
 - yarn build
-- npm publish
+- npm run release
 
 
 # LICENSE

@@ -3,16 +3,21 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "files": [
+    "./dist"
+  ],
   "directories": {
     "bin": "./bin"
   },
   "scripts": {
     "clean": "rimraf tmp/*",
-    "build": "./script/build.sh && node ./script/deps.js"
+    "build": "./script/build.sh && node ./script/deps.js",
+    "release": "np"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "np": "^7.0.0",
     "rimraf": "^3.0.2"
   },
   "dependencies": {

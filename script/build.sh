@@ -6,6 +6,10 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 cd $DIR/../tmp
 git clone --depth=1 git@github.com:Microsoft/vscode vscode
 
+# pull
+cd $DIR/../tmp/vscode
+git pull
+
 # npm install
 cd $DIR/../tmp/vscode
 yarn install
