@@ -10,13 +10,20 @@
   "directories": {
     "bin": "./bin"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrsh7th/vscode-langservers-extracted.git"
+  },
+  "keywords": [
+    "language-server-protocol"
+  ],
   "scripts": {
     "clean": "rimraf tmp/*",
     "build": "./script/build.sh && node ./script/deps.js",
     "release": "np --no-yarn"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "hrsh7th",
+  "license": "MIT",
   "devDependencies": {
     "np": "^7.0.0",
     "rimraf": "^3.0.2"

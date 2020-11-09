@@ -13,16 +13,19 @@ HTML/CSS/JSON language servers extracted from [vscode](https://github.com/Micros
 
 You can install this via `npm i -g vscode-langservers-extracted`.
 
-After that, you get `html-language-server`, `css-language-server` and `json-language-server` for the $PATH.
-
-
-# Requirements
-You should install yarn for the building vscode.
-
-- `npm i -g yarn`
+After that, you get `vscode-html-language-server`, `vscode-css-language-server` and `vscode-json-language-server` for the $PATH.
 
 
 # Build
+
+### Requirements
+
+You should install yarn for the building vscode.
+
+
+### Commands
+
+- `npm i -g yarn`
 - yarn install
 - yarn build
 - npm run release
