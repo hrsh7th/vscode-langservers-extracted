@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "files": [
-    "./dist"
+    "dist/",
+    "bin/"
   ],
   "directories": {
     "bin": "./bin"
@@ -12,7 +13,7 @@
   "scripts": {
     "clean": "rimraf tmp/*",
     "build": "./script/build.sh && node ./script/deps.js",
-    "release": "np"
+    "release": "np --no-yarn"
   },
   "author": "",
   "license": "ISC",
