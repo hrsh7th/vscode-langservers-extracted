@@ -1,4 +1,4 @@
 #!/usr/bin/env node
 
-require(__dirname + '/../dist/html-language-server/node/htmlServerMain.js');
+require(__dirname + '/../dist/html-language-server/out/node/htmlServerMain.js');
 

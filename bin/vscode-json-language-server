@@ -1,4 +1,4 @@
 #!/usr/bin/env node
 
-require(__dirname + '/../dist/json-language-server/node/jsonServerMain.js');
+require(__dirname + '/../dist/json-language-server/out/node/jsonServerMain.js');
 
