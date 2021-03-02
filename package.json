@@ -1,6 +1,6 @@
 {
   "name": "vscode-langservers-extracted",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "description": "",
   "main": "index.js",
   "files": [
