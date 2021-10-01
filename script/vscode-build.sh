@@ -12,11 +12,12 @@ git clone --depth=1 git@github.com:Microsoft/vscode vscode
 
 # pull
 cd $DIR/../tmp/vscode
-git pull
+git pull --rebase
 
 # npm install
 cd $DIR/../tmp/vscode
-yarn install
+npm i -D gulp gulp-cli
+yarn
 yarn compile
 
 # copy to dist

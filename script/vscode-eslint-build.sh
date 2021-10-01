@@ -1,0 +1,25 @@
+#!/bin/bash
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+# prepare
+mkdir -p $DIR/../tmp
+mkdir -p $DIR/../dist
+
+# clone
+cd $DIR/../tmp
+git clone --depth=1 git@github.com:Microsoft/vscode-eslint vscode-eslint
+
+# pull
+cd $DIR/../tmp/vscode-eslint
+git pull --rebase
+
+# npm install
+cd $DIR/../tmp/vscode-eslint
+npm i -D gulp gulp-cli
+yarn
+yarn compile
+
+# copy to dist
+cd $DIR/..
+cp -r ./tmp/vscode-eslint/server/out ./dist/eslint-language-server

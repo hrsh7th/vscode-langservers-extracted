@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+require(__dirname + '/../dist/eslint-language-server/eslintServer.js');
+
