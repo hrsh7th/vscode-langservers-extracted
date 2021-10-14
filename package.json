@@ -10,6 +10,12 @@
   "directories": {
     "bin": "./bin"
   },
+  "bin": {
+    "vscode-css-language-server": "bin/vscode-css-language-server",
+    "vscode-eslint-language-server": "bin/vscode-eslint-language-server",
+    "vscode-html-language-server": "bin/vscode-html-language-server",
+    "vscode-json-language-server": "bin/vscode-json-language-server"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hrsh7th/vscode-langservers-extracted.git"
