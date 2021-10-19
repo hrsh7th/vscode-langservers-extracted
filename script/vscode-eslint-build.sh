@@ -12,6 +12,8 @@ git clone --depth=1 git@github.com:Microsoft/vscode-eslint vscode-eslint
 
 # pull
 cd $DIR/../tmp/vscode-eslint
+git clean -fd
+git checkout .
 git pull --rebase
 
 # npm install

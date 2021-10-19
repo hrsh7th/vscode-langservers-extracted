@@ -12,6 +12,8 @@ git clone --depth=1 git@github.com:Microsoft/vscode vscode
 
 # pull
 cd $DIR/../tmp/vscode
+git clean -fd
+git checkout .
 git pull --rebase
 
 # npm install
