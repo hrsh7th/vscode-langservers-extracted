@@ -12,9 +12,9 @@ git clone --depth=1 git@github.com:Microsoft/vscode-anycode vscode-anycode
 
 # pull
 cd $DIR/../tmp/vscode-anycode
-git clean -fd
-git checkout .
-git pull --rebase
+# git clean -fd
+# git checkout .
+# git pull --rebase
 
 # npm install
 cd $DIR/../tmp/vscode-anycode
@@ -26,7 +26,7 @@ yarn compile
 cd $DIR/..
 mkdir -p ./dist/anycode-language-server
 mkdir -p ./dist/anycode-language-server/server
-cp -r ./tmp/vscode-anycode/dist/anycode.server.js ./dist/anycode-language-server/anycode.server.js
+cp -r ./tmp/vscode-anycode/dist/* ./dist/anycode-language-server/
 cp -r ./tmp/vscode-anycode/server/tree-sitter ./dist/anycode-language-server/server/tree-sitter
 cp -r ./tmp/vscode-anycode/server/tree-sitter-*.wasm ./dist/anycode-language-server/server
 
