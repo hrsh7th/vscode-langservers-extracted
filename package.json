@@ -25,10 +25,6 @@
   ],
   "scripts": {
     "clean": "rimraf tmp/*",
-    "build": "run-s build:* && node ./script/depcheck.js",
-    "build:vscode": "./script/vscode-build.sh",
-    "build:vscode-eslint": "./script/vscode-eslint-build.sh",
-    "build:vscode-anycode": "./script/vscode-anycode-build.sh",
     "release": "np --no-yarn",
     "test": "echo 1"
   },

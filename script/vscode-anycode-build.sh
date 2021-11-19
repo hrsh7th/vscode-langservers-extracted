@@ -18,7 +18,7 @@ cd $DIR/../tmp/vscode-anycode
 
 # npm install
 cd $DIR/../tmp/vscode-anycode
-npm i -D gulp gulp-cli
+yarn add gulp gulp-cli
 yarn
 yarn compile
 
