@@ -31,9 +31,9 @@ You should install yarn for the building vscode.
 ### Commands
 
 - `npm i -g yarn`
-- yarn install
+- yarn
 - ./script/build.sh
-- ndoe ./script/depcheck.js
+- node ./script/depcheck.js
 - npm run release
 
 
