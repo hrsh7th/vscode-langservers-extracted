@@ -37,6 +37,23 @@ You should install yarn for the building vscode.
 - npm run release
 
 
+### Installation and setup for windows user
+
+1. Please install [node](https://nodejs.org/en/)
+2. Check the version of node and npm by `node -v` and `npm -v`.
+3. Paste this command in the command line `npm i -g vscode-langservers-extracted`
+4. Create file for your lspconfig
+5. Paste this into your config
+```
+local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
+require'lspconfig'.cssls.setup {
+  cmd = { "vscode-css-language-server.cmd", "--stdio" },
+  capabilities = capabilities,
+}
+```
+> Example for css
+
+
 # LICENSE
 
 This package licensed under the MIT.
