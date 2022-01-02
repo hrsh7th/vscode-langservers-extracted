@@ -11,7 +11,11 @@ HTML/CSS/JSON language servers extracted from [vscode](https://github.com/Micros
 
 # Usage
 
-You can install this via `npm i -g vscode-langservers-extracted`.
+You can install this via `npm i -g vscode-langservers-extracted`.  
+
+OR  
+
+in the aur via `yay -S vscode-langservers-extracted`  
 
 After that, you get the following commands.
 
