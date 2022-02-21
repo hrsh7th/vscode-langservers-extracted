@@ -3321,10 +3321,10 @@
   dependencies:
     "jsesc" "~0.5.0"
 
-"request-light@^0.5.5":
-  "integrity" "sha512-AvjfJuhyT6dYfhtIBF+IpTPQco+Td1QJ6PsIJ5xui110vQ5p9HxHk+m1XJqXazLQT6CxxSx9eNv6R/+fu4bZig=="
-  "resolved" "https://registry.npmjs.org/request-light/-/request-light-0.5.5.tgz"
-  "version" "0.5.5"
+"request-light@^0.5.7":
+  "integrity" "sha512-i/wKzvcx7Er8tZnvqSxWuNO5ZGggu2UgZAqj/RyZ0si7lBTXL7kZiI/dWxzxnQjaY7s5HEy1qK21Do4Ncr6cVw=="
+  "resolved" "https://registry.npmjs.org/request-light/-/request-light-0.5.7.tgz"
+  "version" "0.5.7"
 
 "resolve-cwd@^3.0.0":
   "integrity" "sha512-OrZaX2Mb+rJCpH/6CpSqt9xFVpN++x01XnN2ie9g6P5/3xelLAkXWVADpdz1IHD/KFfEXyE6V0U01OQ3UO2rEg=="
@@ -3921,10 +3921,10 @@
   dependencies:
     "builtins" "^1.0.3"
 
-"vscode-css-languageservice@^5.1.9":
-  "integrity" "sha512-/tFOWeZBL3Oc9Zc+2MAi3rEwiXJTSZsvjB+M7nSjWLbGPUIjukUA7YzLgsBoUfR35sPJYnXWUkL56PdfIYM8GA=="
-  "resolved" "https://registry.npmjs.org/vscode-css-languageservice/-/vscode-css-languageservice-5.1.9.tgz"
-  "version" "5.1.9"
+"vscode-css-languageservice@^5.1.13":
+  "integrity" "sha512-FA0foqMzMmEoO0WJP+MjoD4dRERhKS+Ag+yBrtmWQDmw2OuZ1R/5FkvI/XdTkCpHmTD9VMczugpHRejQyTXCNQ=="
+  "resolved" "https://registry.npmjs.org/vscode-css-languageservice/-/vscode-css-languageservice-5.1.13.tgz"
+  "version" "5.1.13"
   dependencies:
     "vscode-languageserver-textdocument" "^1.0.1"
     "vscode-languageserver-types" "^3.16.0"
@@ -3941,51 +3941,51 @@
     "vscode-nls" "^5.0.0"
     "vscode-uri" "^3.0.2"
 
-"vscode-json-languageservice@^4.2.0-next.2":
-  "integrity" "sha512-P0sdiZS7bM8+bxrkpL7XPwwhmZj94pcJIAZUh/QeessvYtXFnRmOEybe20rC+CS7b7DfwFcVt0p4p93hGZQ5gg=="
-  "resolved" "https://registry.npmjs.org/vscode-json-languageservice/-/vscode-json-languageservice-4.2.0-next.2.tgz"
-  "version" "4.2.0-next.2"
+"vscode-json-languageservice@^4.2.0":
+  "integrity" "sha512-XNawv0Vdy/sUK0S+hGf7cq/qsVAbIniGJr89TvZOqMCNJmpgKTy1e8PL1aWW0uy6BfWMG7vxa5lZb3ypuFtuGQ=="
+  "resolved" "https://registry.npmjs.org/vscode-json-languageservice/-/vscode-json-languageservice-4.2.0.tgz"
+  "version" "4.2.0"
   dependencies:
     "jsonc-parser" "^3.0.0"
-    "vscode-languageserver-textdocument" "^1.0.1"
+    "vscode-languageserver-textdocument" "^1.0.3"
     "vscode-languageserver-types" "^3.16.0"
     "vscode-nls" "^5.0.0"
-    "vscode-uri" "^3.0.2"
+    "vscode-uri" "^3.0.3"
 
-"vscode-jsonrpc@8.0.0-next.4":
-  "integrity" "sha512-i+wvza5Wd0YV/t9qhnS8I+dJdhJ1fHIhRW4f262rXXM9Mgts5VZhYrRZufGcai4y99RlbZvwaZhplQ6diRXkaA=="
-  "resolved" "https://registry.npmjs.org/vscode-jsonrpc/-/vscode-jsonrpc-8.0.0-next.4.tgz"
-  "version" "8.0.0-next.4"
+"vscode-jsonrpc@8.0.0-next.6":
+  "integrity" "sha512-6Ld3RYjygn5Ih7CkAtcAwiDQC+rakj2O+PnASfNyYv3sLmm44eJpEKzuPUN30Iy2UB09AZg8T6LBKWTJTEJDVw=="
+  "resolved" "https://registry.npmjs.org/vscode-jsonrpc/-/vscode-jsonrpc-8.0.0-next.6.tgz"
+  "version" "8.0.0-next.6"
 
-"vscode-languageserver-protocol@3.17.0-next.11":
-  "integrity" "sha512-9FqHT7XvM6tWFsnLvRfuQA7Zh7wZZYAwA9dK85lYthA8M1aXpXEP9drXVvO/Fe03MUeJpKVf2e4/NvDaFUnttg=="
-  "resolved" "https://registry.npmjs.org/vscode-languageserver-protocol/-/vscode-languageserver-protocol-3.17.0-next.11.tgz"
-  "version" "3.17.0-next.11"
+"vscode-languageserver-protocol@3.17.0-next.14":
+  "integrity" "sha512-iangobY8dL6sFZkOx4OhRPJM9gN0I1caUsOVR+MnPozsqQUtwMXmbIcfaIf0Akp0pd3KhJDPf/tdwRX68QGeeA=="
+  "resolved" "https://registry.npmjs.org/vscode-languageserver-protocol/-/vscode-languageserver-protocol-3.17.0-next.14.tgz"
+  "version" "3.17.0-next.14"
   dependencies:
-    "vscode-jsonrpc" "8.0.0-next.4"
-    "vscode-languageserver-types" "3.17.0-next.5"
+    "vscode-jsonrpc" "8.0.0-next.6"
+    "vscode-languageserver-types" "3.17.0-next.7"
 
-"vscode-languageserver-textdocument@^1.0.1", "vscode-languageserver-textdocument@^1.0.3":
-  "integrity" "sha512-ynEGytvgTb6HVSUwPJIAZgiHQmPCx8bZ8w5um5Lz+q5DjP0Zj8wTFhQpyg8xaMvefDytw2+HH5yzqS+FhsR28A=="
-  "resolved" "https://registry.npmjs.org/vscode-languageserver-textdocument/-/vscode-languageserver-textdocument-1.0.3.tgz"
-  "version" "1.0.3"
+"vscode-languageserver-textdocument@^1.0.1", "vscode-languageserver-textdocument@^1.0.3", "vscode-languageserver-textdocument@^1.0.4":
+  "integrity" "sha512-/xhqXP/2A2RSs+J8JNXpiiNVvvNM0oTosNVmQnunlKvq9o4mupHOBAnnzH0lwIPKazXKvAKsVp1kr+H/K4lgoQ=="
+  "resolved" "https://registry.npmjs.org/vscode-languageserver-textdocument/-/vscode-languageserver-textdocument-1.0.4.tgz"
+  "version" "1.0.4"
 
 "vscode-languageserver-types@^3.16.0":
   "integrity" "sha512-k8luDIWJWyenLc5ToFQQMaSrqCHiLwyKPHKPQZ5zz21vM+vIVUSvsRpcbiECH4WR88K2XZqc4ScRcZ7nk/jbeA=="
   "resolved" "https://registry.npmjs.org/vscode-languageserver-types/-/vscode-languageserver-types-3.16.0.tgz"
   "version" "3.16.0"
 
-"vscode-languageserver-types@3.17.0-next.5":
-  "integrity" "sha512-Zcfaw8BznhlJWB09LDR0dscXyxn9+liREqJnPF4pigeUCHwKxYapYqizwuCpMHQ/oLYiAvKwU+f28hPleYu7pA=="
-  "resolved" "https://registry.npmjs.org/vscode-languageserver-types/-/vscode-languageserver-types-3.17.0-next.5.tgz"
-  "version" "3.17.0-next.5"
+"vscode-languageserver-types@3.17.0-next.7":
+  "integrity" "sha512-KH4zdG1qBXxoso61ChgpeoZYyHGJo8bV7Jv4I+fwQ1Ryy59JAxoZ9GAbhR5TeeafHctLcg6RFvY3m8Jqfu17cg=="
+  "resolved" "https://registry.npmjs.org/vscode-languageserver-types/-/vscode-languageserver-types-3.17.0-next.7.tgz"
+  "version" "3.17.0-next.7"
 
-"vscode-languageserver@^8.0.0-next.5":
-  "integrity" "sha512-3E2W0eWtGKb6QAJqspOnD0thrBRRo8IGUMV5jpDNMcMKvmtkcxMwsBh0VxdvuWaZ51PiNyR4L+B+GUvkYsyFEg=="
-  "resolved" "https://registry.npmjs.org/vscode-languageserver/-/vscode-languageserver-8.0.0-next.5.tgz"
-  "version" "8.0.0-next.5"
+"vscode-languageserver@^8.0.0-next.8":
+  "integrity" "sha512-Gq0uqKbOgw7YNwPxMoNCeh7mHKMhG5j6EuoSh+w5pnKd7Eu9a74cagqf9aZDVFWW6GRpqR/Z+1o6EXqDK+g2Tg=="
+  "resolved" "https://registry.npmjs.org/vscode-languageserver/-/vscode-languageserver-8.0.0-next.8.tgz"
+  "version" "8.0.0-next.8"
   dependencies:
-    "vscode-languageserver-protocol" "3.17.0-next.11"
+    "vscode-languageserver-protocol" "3.17.0-next.14"
 
 "vscode-nls@^5.0.0":
   "integrity" "sha512-u0Lw+IYlgbEJFF6/qAqG2d1jQmJl0eyAGJHoAJqr2HT4M2BNuQYSEiSE75f52pXHSJm8AlTjnLLbBFPrdz2hpA=="
