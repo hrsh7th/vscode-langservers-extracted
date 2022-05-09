@@ -9,7 +9,6 @@ const deps = {};
   path.resolve(__dirname, '..', 'tmp/vscode/extensions/html-language-features/server/package.json'),
   path.resolve(__dirname, '..', 'tmp/vscode/extensions/json-language-features/server/package.json'),
   path.resolve(__dirname, '..', 'tmp/vscode-eslint/server/package.json'),
-  path.resolve(__dirname, '..', 'tmp/vscode-anycode/server/package.json'),
 ].forEach(name => {
   const packageJSON = require(name);
   Object.entries(packageJSON.dependencies).map(([package, version]) => {

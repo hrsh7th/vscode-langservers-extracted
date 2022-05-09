@@ -18,7 +18,7 @@ git pull --rebase
 
 # npm install
 cd $DIR/../tmp/vscode-eslint
-yarn add gulp gulp-cli
+yarn add --dev gulp gulp-cli
 yarn
 yarn compile
 
