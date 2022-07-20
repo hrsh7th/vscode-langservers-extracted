@@ -21,7 +21,7 @@ cd $DIR/../tmp/vscode-anycode
 node ./scripts/all-npm.js install
 
 # copy to dist
-cd $DIR/..
-cp -r ./tmp/vscode-anycode/anycode/dist ./dist/anycode-language-server
-npx babel ./dist/anycode-language-server --out-dir ./lib/anycode-language-server/
+# cd $DIR/..
+# cp -r ./tmp/vscode-anycode/anycode/dist ./dist/anycode-language-server
+# npx babel ./dist/anycode-language-server --out-dir ./lib/anycode-language-server/
 

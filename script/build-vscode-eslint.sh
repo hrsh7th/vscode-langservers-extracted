@@ -23,6 +23,8 @@ yarn compile
 
 # copy to dist
 cd $DIR/..
-cp -r ./tmp/vscode-eslint/server/out ./dist/eslint-language-server
-npx babel ./dist/eslint-language-server/out --out-dir ./lib/eslint-language-server/
+
+mkdir -p ./dist/eslint-language-server
+cp -r ./tmp/vscode-eslint/server/out/* ./dist/eslint-language-server/
+npx babel ./dist/eslint-language-server --out-dir ./lib/eslint-language-server/
 
