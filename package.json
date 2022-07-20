@@ -14,7 +14,8 @@
     "vscode-css-language-server": "bin/vscode-css-language-server",
     "vscode-eslint-language-server": "bin/vscode-eslint-language-server",
     "vscode-html-language-server": "bin/vscode-html-language-server",
-    "vscode-json-language-server": "bin/vscode-json-language-server"
+    "vscode-json-language-server": "bin/vscode-json-language-server",
+    "vscode-markdown-language-server": "bin/vscode-markdown-language-server"
   },
   "repository": {
     "type": "git",
@@ -24,7 +25,7 @@
     "language-server-protocol"
   ],
   "scripts": {
-    "clean": "rimraf tmp/*",
+    "clean": "rimraf {lib,dist}/*",
     "update": "yarn clean && ./script/build.sh && node ./script/depcheck.js",
     "release": "np --no-yarn",
     "test": "echo 1"
@@ -38,19 +39,21 @@
     "np": "^7.0.0",
     "npm-run-all": "^4.1.5",
     "rimraf": "^3.0.2",
-    "semver": "^7.3.5"
+    "semver": "^7.3.7"
   },
   "dependencies": {
     "core-js": "^3.20.1",
-    "jsonc-parser": "^3.0.0",
+    "jsonc-parser": "^3.1.0",
     "regenerator-runtime": "^0.13.9",
     "request-light": "^0.5.8",
     "typescript": "^4.0.5",
-    "vscode-css-languageservice": "^5.4.2",
-    "vscode-html-languageservice": "^4.2.5",
-    "vscode-json-languageservice": "^4.2.1",
-    "vscode-languageserver": "^8.0.0-next.14",
-    "vscode-languageserver-textdocument": "^1.0.4",
+    "vscode-css-languageservice": "^6.0.1",
+    "vscode-html-languageservice": "^5.0.0",
+    "vscode-json-languageservice": "^5.1.0",
+    "vscode-languageserver": "^8.0.2",
+    "vscode-languageserver-textdocument": "^1.0.5",
+    "vscode-languageserver-types": "^3.17.2",
+    "vscode-markdown-languageservice": "^0.0.0-alpha.10",
     "vscode-nls": "^5.0.1",
     "vscode-uri": "^3.0.3"
   }

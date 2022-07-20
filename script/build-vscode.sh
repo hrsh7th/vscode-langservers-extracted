@@ -18,16 +18,21 @@ git pull --rebase
 
 # npm install
 cd $DIR/../tmp/vscode
-yarn add --dev gulp gulp-cli
 yarn
 yarn compile
 
 # copy to dist
 cd $DIR/..
+
 cp -r ./tmp/vscode/extensions/css-language-features/server/out ./dist/css-language-server
-npx babel ./dist/css-language-server/out --out-dir ./lib/css-language-server/
+npx babel ./dist/css-language-server --out-dir ./lib/css-language-server/
+
 cp -r ./tmp/vscode/extensions/html-language-features/server/out ./dist/html-language-server
-npx babel ./dist/html-language-server/out --out-dir ./lib/html-language-server/
+npx babel ./dist/html-language-server --out-dir ./lib/html-language-server/
+
 cp -r ./tmp/vscode/extensions/json-language-features/server/out ./dist/json-language-server
-npx babel ./dist/json-language-server/out --out-dir ./lib/json-language-server/
+npx babel ./dist/json-language-server --out-dir ./lib/json-language-server/
+
+cp -r ./tmp/vscode/extensions/markdown-language-features/server/out ./dist/markdown-language-server
+npx babel ./dist/markdown-language-server --out-dir ./lib/markdown-language-server/
 
