@@ -36,7 +36,7 @@ Object.entries(deps).forEach(([package, versions]) => {
     console.error(`${package} has multiple versions (${versions}). ${version} is selected.`);
   }
   execSync(version === '0.0.0' ? `npm i -S ${package}` : `npm i -S ${package}@">=${version}"`, {
-    cwd: path.resolve(package, '../'),
+    cwd: path.resolve(__dirname, '../'),
     stdio: 'inherit'
   });
 });
