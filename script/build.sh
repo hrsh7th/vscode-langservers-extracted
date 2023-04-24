@@ -7,5 +7,5 @@ npm i -g gulp-cli
 cd $DIR
 source $DIR/build-vscode.sh
 source $DIR/build-vscode-eslint.sh
-source $DIR/build-vscode-anycode.sh
+# source $DIR/build-vscode-anycode.sh
 

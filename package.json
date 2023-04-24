@@ -42,19 +42,19 @@
     "semver": "^7.3.7"
   },
   "dependencies": {
-    "@vscode/l10n": "^0.0.11",
+    "@vscode/l10n": "^0.0.13",
     "core-js": "^3.20.1",
     "jsonc-parser": "^3.2.0",
     "regenerator-runtime": "^0.13.9",
     "request-light": "^0.7.0",
     "typescript": "^4.0.5",
-    "vscode-css-languageservice": "^6.2.3",
+    "vscode-css-languageservice": "^6.2.4",
     "vscode-html-languageservice": "^5.0.4",
-    "vscode-json-languageservice": "^5.1.4",
-    "vscode-languageserver": "^8.1.0-next.6",
-    "vscode-languageserver-textdocument": "^1.0.9",
-    "vscode-languageserver-types": "^3.17.2",
-    "vscode-markdown-languageservice": "^0.3.0-alpha.3",
+    "vscode-json-languageservice": "^5.3.3",
+    "vscode-languageserver": "^8.1.0",
+    "vscode-languageserver-textdocument": "^1.0.10",
+    "vscode-languageserver-types": "^3.17.3",
+    "vscode-markdown-languageservice": "^0.3.0",
     "vscode-nls": "^5.2.0",
     "vscode-uri": "^3.0.7"
   }

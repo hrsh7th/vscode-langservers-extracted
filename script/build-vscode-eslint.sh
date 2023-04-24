@@ -18,6 +18,7 @@ git pull --rebase
 
 # npm install
 cd $DIR/../tmp/vscode-eslint
+yarn --ignore-scripts
 yarn
 yarn compile
 

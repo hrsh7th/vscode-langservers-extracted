@@ -12,18 +12,21 @@ const deps = {};
   path.resolve(__dirname, '..', 'tmp/vscode-anycode/anycode/server/package.json'),
   path.resolve(__dirname, '..', 'tmp/vscode-eslint/server/package.json'),
 ].forEach(name => {
-  const packageJSON = require(name);
-  Object.entries(packageJSON.dependencies).map(([package, version]) => {
-    version = version.replace('`', '');
-    if (!deps[package]) {
-      deps[package] = [];
-    }
+  try {
+    const packageJSON = require(name);
+    Object.entries(packageJSON.dependencies).map(([package, version]) => {
+      version = version.replace('`', '');
+      if (!deps[package]) {
+        deps[package] = [];
+      }
 
-    const v = semver.minVersion(version).version;
-    if (!deps[package].includes(v)) {
-      deps[package].push(v);
-    }
-  });
+      const v = semver.minVersion(version).version;
+      if (!deps[package].includes(v)) {
+        deps[package].push(v);
+      }
+    });
+  } catch (e) {
+  }
 })
 
 console.log(deps)
