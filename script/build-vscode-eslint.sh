@@ -2,19 +2,22 @@
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
+# Latest stable release for vscode-eslint is 2.4.4
+# https://github.com/microsoft/vscode-eslint/commit/e3cf71a029330d2387b6cf59460359ee7a81ea8f
+COMMIT_SHA="e3cf71a029330d2387b6cf59460359ee7a81ea8f"
+
 # prepare
 mkdir -p $DIR/../tmp
 mkdir -p $DIR/../dist
 
 # clone
 cd $DIR/../tmp
-git clone --depth=1 git@github.com:Microsoft/vscode-eslint vscode-eslint
+git clone git@github.com:Microsoft/vscode-eslint vscode-eslint
 
 # pull
 cd $DIR/../tmp/vscode-eslint
 git clean -fd
-git checkout .
-git pull --rebase
+git checkout $COMMIT_SHA
 
 # npm install
 cd $DIR/../tmp/vscode-eslint
